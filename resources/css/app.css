@@ -29,7 +29,8 @@ body, #app-content, #map-content {
     padding: 11px 0;
     position: absolute;
     top: -55px;
-    transition: top 0.25s ease 0s;
+    -webkit-transition: top 0.25s ease 0s;
+            transition: top 0.25s ease 0s;
     z-index: 4;
 }
 
@@ -118,7 +119,8 @@ table { width: 100%; }
     position: absolute;
     right: -650px;
     top: 8px;
-    transition: right 0.25s ease 0s;
+    -webkit-transition: right 0.25s ease 0s;
+            transition: right 0.25s ease 0s;
     z-index: 3;
 }
 
